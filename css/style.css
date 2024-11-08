@@ -1,0 +1,106 @@
+body {
+  font-family: serif;
+  background-image: url(/img/chojuori0009_3.png);
+  background-color:rgba(255,255,255,0.8);
+  background-blend-mode:lighten;
+  background-repeat: repeat;
+  background-size: 20%
+}
+#title {
+  margin: auto;
+  text-align: center;
+}
+.contents {
+  padding: 30px;
+}
+.balloon_oya {
+  position   : relative;
+  margin-top: 20px;  
+  padding-top: 20px;
+}
+/* .balloon_oya:hover .balloon_oya_txt1 {
+    display: inline;  
+} */
+.balloon_oya_txt1 {
+  position   : absolute;                /* 親要素を基準 */
+  /* display: none;                        要素を非表示 */
+  padding: 10px;                         /* テキストの前後の余白 */
+  background-color: rgba(0, 102, 102, 0.32);       /* 背景色（透明度） */
+  width:400px;                          /* 吹き出し全体の幅 */
+  right : 5%; 
+  bottom: 40%;                         /* 表示位置 */
+  font-size: 24px;                       /* 文字サイズ */
+}
+.balloon_oya_txt1:after{
+  border-right: 12px solid rgba(0, 102, 102, 0.32);  /* 吹き出し口の幅・色 */
+  border-top: 10px solid transparent;     /* 吹き出し口の高さ１／２ */
+  border-bottom: 10px solid transparent;  /* 吹き出し口の高さ１／２ */
+  left: -12px;                            /* 吹き出し口の位置調整 */
+  top: 5%;                                 /* 吹き出し口の縦位置 */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+}
+.balloon_oya_txt2 {
+  position   : absolute;                /* 親要素を基準 */
+  /* display: none;                        要素を非表示 */
+  padding: 10px;                         /* テキストの前後の余白 */
+  background-color: rgba(153, 153, 255, 0.32);       /* 背景色（透明度） */
+  width: 300px;                          /* 吹き出し全体の幅 */
+  border-radius: 5%;
+  left : 7%;
+  bottom: 60%;                           /* 表示位置 */
+}
+.balloon_oya_txt2:after{
+  border-left: 12px solid rgba(153, 153, 255, 0.32);   /* 吹き出し口の幅・色 */
+  border-top: 10px solid transparent;     /* 吹き出し口の高さ１／２ */
+  border-bottom: 10px solid transparent;  /* 吹き出し口の高さ１／２ */
+  right: -12px;                           /* 吹き出し口の位置調整 */
+  top: 5%;                                /* 吹き出し口の縦位置 */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+}
+.balloon_oya_txt3 {
+  position   : absolute;                /* 親要素を基準 */
+  /* display: none;                        要素を非表示 */
+  padding: 10px;                         /* テキストの前後の余白 */
+  background-color: rgba(204, 204, 204, 0.32);       /* 背景色（透明度） */
+  width: 300px;                          /* 吹き出し全体の幅 */
+  left : 12%;
+  bottom: 20%;                           /* 表示位置 */
+}
+.balloon_oya_txt3:after{
+  border-left: 12px solid rgba(204, 204, 204, 0.32);   /* 吹き出し口の幅・色 */
+  border-top: 10px solid transparent;     /* 吹き出し口の高さ１／２ */
+  border-bottom: 10px solid transparent;  /* 吹き出し口の高さ１／２ */
+  right: -12px;                           /* 吹き出し口の位置調整 */
+  top: 5%;                                /* 吹き出し口の縦位置 */
+  content: "";                       /* コンテンツの挿入 */
+  position: absolute;                /* 親要素を基準 */
+}
+#flog {
+    height: 300px;
+    /* display: flex;
+    justify-content: center; */
+    /* padding-bottom: 30px; */
+    text-align: center;
+}
+#coinbox {
+    height: 150px;
+    position: relative;
+    filter: drop-shadow(5px 5px 5px #aaa);
+    cursor: url(/img/coin.gif) 50 50, auto;
+}
+
+.image-box {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+#imagearea_1 {
+    margin: auto;
+    /* opacity: 0% */
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 500px
+}
