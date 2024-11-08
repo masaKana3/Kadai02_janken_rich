@@ -1,6 +1,6 @@
 body {
   font-family: serif;
-  background-image: url(/img/chojuori0009_3.png);
+  background-image: url(../img/chojuori0009_3.png);
   background-color:rgba(255,255,255,0.8);
   background-blend-mode:lighten;
   background-repeat: repeat;
@@ -88,7 +88,7 @@ body {
     height: 150px;
     position: relative;
     filter: drop-shadow(5px 5px 5px #aaa);
-    cursor: url(/img/coin.gif) 50 50, auto;
+    cursor: url(../img/coin.gif) 50 50, auto;
 }
 
 .image-box {
